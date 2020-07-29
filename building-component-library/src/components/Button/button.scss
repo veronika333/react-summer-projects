@@ -1,0 +1,25 @@
+@import '../../styles/_vars.scss';
+    .primary {
+text-transform: uppercase;
+font-weight: bold;
+border: none;
+&:hover {
+    color: $white1;
+    background-color: $black1;
+    cursor: pointer;
+    border: none;
+}
+&:active {
+    color: $black1;
+    background-color: $white1;
+    border: none;
+}
+    }
+.disabled {
+    color: $white1;
+    background-color: rgb(209, 209, 209);
+    border: none;
+    &:hover{
+        cursor: not-allowed;
+    }
+}

@@ -1,0 +1,25 @@
+@import "./vars";
+
+.fontWhite {
+    color: $white1;
+}
+
+.fontBlack {
+    color: $black1;
+}
+
+.backYellow {
+    background-color: $yellow1;
+}
+
+.padding7 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.width100 {
+    width: 100px;
+}
+.radius15 {
+    border-radius: 15px;
+}
