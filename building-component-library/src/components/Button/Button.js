@@ -2,6 +2,11 @@ import React from 'react';
 import "../../styles/common.scss";
 import "../Button/button.scss";
 
+/** 
+* @deprecated Don't use this button after 2020
+* @author [veronika maisuradze]
+**/ 
+
 const Button = ({children, type}) => {
 
 let localClass = "primary";
